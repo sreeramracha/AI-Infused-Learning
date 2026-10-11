@@ -1,0 +1,164 @@
+```gitignore
+# ==========================================
+# Python bytecode and cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==========================================
+# Python packaging and build artifacts
+# ==========================================
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing and coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+.tox/
+.nox/
+.hypothesis/
+
+# ==========================================
+# Type checking and linting caches
+# ==========================================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Spyder
+.spyderproject
+.spyproject/
+
+# Sublime Text
+*.sublime-workspace
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating system files
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+
+# ==========================================
+# Local databases and runtime files
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+*.seed
+
+# ==========================================
+# Python application servers
+# ==========================================
+instance/
+.webassets-cache/
+
+# ==========================================
+# Data science and machine learning
+# ==========================================
+.mlflow/
+wandb/
+lightning_logs/
+tensorboard/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# ==========================================
+# Local data files (review before enabling)
+# ==========================================
+# Uncomment these if your project contains private or large datasets.
+# data/
+# datasets/
+# *.csv
+# *.parquet
+
+# ==========================================
+# Local configuration
+# ==========================================
+# Uncomment if these files contain machine-specific settings.
+# config.local.yaml
+# config.local.json
+```
