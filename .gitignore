@@ -1,4 +1,3 @@
-```gitignore
 # ==========================================
 # Python bytecode and cache
 # ==========================================
@@ -161,4 +160,55 @@ checkpoints/
 # Uncomment if these files contain machine-specific settings.
 # config.local.yaml
 # config.local.json
-```
+
+
+# ==========================================
+# Gradio
+# ==========================================
+gradio_cached_examples/
+.flagged/
+demo/
+file_cache/
+
+# ==========================================
+# API keys and local secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==========================================
+# Generated images, audio, and outputs
+# ==========================================
+outputs/
+generated/
+generated_images/
+generated_audio/
+
+# ==========================================
+# Local application data
+# ==========================================
+.cache/
+.cache_huggingface/
+huggingface_cache/
+
+
+# ==========================================
+# Private keys and certificates
+# ==========================================
+*.pem
+
+
+
+# ChromaDB files and directories
+chroma/
+chromadb/
+.chroma/
+chroma_db/
+
+# ChromaDB directories in any subfolder
+**/chroma/
+**/chromadb/
+**/.chroma/
+**/chroma_db/
