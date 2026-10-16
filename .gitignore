@@ -198,7 +198,7 @@ huggingface_cache/
 # Private keys and certificates
 # ==========================================
 *.pem
-
+*.key
 
 
 # ChromaDB files and directories
