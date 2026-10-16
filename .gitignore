@@ -212,3 +212,32 @@ chroma_db/
 **/chromadb/
 **/.chroma/
 **/chroma_db/
+
+
+# ==========================================
+# Docker
+# ==========================================
+
+# Docker Compose local overrides
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Docker environment and local configuration
+.docker/
+.dockerignore.local
+
+# Docker build and temporary files
+docker-build/
+docker-data/
+.docker-tmp/
+
+# ==========================================
+# Python Pickle Files
+# ==========================================
+*.pkl
+*.pickle
+
+# Pickle files in any subfolder (optional; *.pkl
+# and *.pickle already match recursively)
+**/*.pkl
+**/*.pickle
