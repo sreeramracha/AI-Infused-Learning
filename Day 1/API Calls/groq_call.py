@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 
-load_dotenv()
+load_dotenv("../../../AI Infusion/.env")
 
 # point the SAME client at Groq instead of OpenAI 👇
 client = OpenAI(
